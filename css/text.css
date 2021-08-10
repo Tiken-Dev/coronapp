@@ -1,0 +1,28 @@
+h2, p {
+  margin: 0;
+}
+
+h2 {
+  font: var(--title-mobile);
+}
+
+p {
+  font: var(--body1);
+  color: var(--paragraph);
+}
+
+
+@media screen and (min-width: 768px) {
+  h2, p {
+    margin: 0;
+  }
+
+  h2 {
+    font: var(--title);
+  }
+
+  p {
+    font: var(--body1);
+    color: var(--paragraph);
+  }
+}

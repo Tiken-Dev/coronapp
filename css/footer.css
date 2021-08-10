@@ -1,0 +1,23 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  margin-block-start: 6rem;
+  margin-block-end: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+
+@media screen and (min-width: 768px) {
+
+  .footer {
+    display: flex;
+    flex-direction: row;
+    margin-block-start: 4rem;
+    margin-block-end: 3rem;
+    align-items: center;
+    justify-content: center;
+    gap: 3.5rem;
+  }
+
+}

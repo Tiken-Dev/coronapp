@@ -1,0 +1,23 @@
+:root {
+  --primary: #1D957F;
+  --textColor: #000;
+  --paragraph: #616161;
+  --white1: #FCFDFE;
+  --white2: #FAFBFD;
+  --title: 700 2.75rem/3.43rem Rubik;
+  --body1: 400 1rem/1.5rem Rubik;
+  --button: 800 .75rem/.687rem Raleway;
+  --title-mobile: 700 2rem/2.2rem Rubik;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+body {
+  background: white;
+  font-family: 'Rubik', sans-serif;
+  color: var(--textColor);
+  margin: 0;
+}

@@ -1,0 +1,46 @@
+.menu {
+  display: none;
+  position: relative;
+
+}
+
+.burger {
+  cursor: pointer;
+}
+
+.burger div {
+  width: 24px;
+  height: 2px;
+  background-color: currentColor;
+  margin: 5px;
+}
+
+.menuList {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 2.375rem;
+}
+
+.menuItem {
+  font-family: 'Raleway', sans-serif;
+  font-size: .9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.link {
+  text-decoration: none;
+  color: currentColor;
+}
+
+
+@media screen and (min-width: 1024px) {
+  .menu {
+    display: flex;
+  }
+
+  .burger {
+    display: none;
+  }
+}

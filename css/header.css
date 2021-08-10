@@ -1,0 +1,14 @@
+.header {
+  position: sticky;
+  top: 0;
+  background: white;
+  -webkit-backdrop-filter: blur(10px);
+  z-index: 6;
+}
+
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  block-size: 5rem;
+}
