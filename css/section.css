@@ -76,6 +76,7 @@ span {
 
 .mobileImg {
   display: flex;
+  margin-block-end: 1.5rem;
 }
 
 .imageContainer {
