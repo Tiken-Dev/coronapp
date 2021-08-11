@@ -4,16 +4,49 @@
 
 }
 
-.burger {
+.label-menu {
+  width: 50px;
+  height: 30px;
+  position: relative;
   cursor: pointer;
 }
 
-.burger div {
-  width: 24px;
-  height: 2px;
-  background-color: currentColor;
-  margin: 5px;
+.label-menu #span1, #span2, #span3 {
+  position: absolute;
+  content: " ";
+  background: currentColor;
+  width: 50px;
+  height: 5px;
+  border-radius: 20px;
+  transition: all 400ms ease;
 }
+
+#span2 {
+  top: 11px;
+}
+
+#span3 {
+  top: 22px;
+}
+
+#btn-menu {
+  display: none;
+}
+
+#btn-menu:checked ~ .label-menu  #span1 {
+  transform: rotate(140deg);
+  top: 10px;
+}
+
+#btn-menu:checked ~ .label-menu  #span2 {
+  opacity: 0;
+}
+
+#btn-menu:checked ~ .label-menu  #span3 {
+  transform: rotate(-140deg);
+  top: 10px;
+}
+
 
 .menuList {
   display: flex;
@@ -40,7 +73,7 @@
     display: flex;
   }
 
-  .burger {
+  .label-menu {
     display: none;
   }
 }
